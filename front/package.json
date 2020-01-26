@@ -18,10 +18,14 @@
     "font-awesome": "^4.7.0",
     "gsap": "^3.0.5",
     "node-sass": "^4.13.1",
+    "prismic-dom": "^2.1.0",
+    "prismic-javascript": "^2.1.5",
+    "prismic-vue": "^2.0.0",
     "sass-loader": "^8.0.2",
     "vue": "^2.6.10",
     "vue-router": "^3.1.5",
-    "vuex": "^3.1.2"
+    "vuex": "^3.1.2",
+    "webpack": "^4.41.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",

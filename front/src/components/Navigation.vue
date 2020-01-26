@@ -19,29 +19,17 @@ export default {
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 .navigation {
-  height: 100%;
-  width: 20%;
-  display: grid;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   a {
-    color: #fff;
-    font-family: 'Righteous', cursive;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  a:first-child {
-    background-color: #fc427b;
-    &.router-link-exact-hover {
-      color: #e67e22;
-    }
-  }
-  a:nth-child(2) {
-    background-color: #82589f;
-  }
-  a:nth-child(3) {
-    background-color: #6d214f;
+    padding-left: 20px;
+    color: #2C3A47;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
   }
 }
 </style>
